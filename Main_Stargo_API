@@ -1,0 +1,9 @@
+from Stargo_API_Update_DynamoDB import *
+from Home_Get_SNMP import *
+from time import sleep
+while True:
+  Get_and_Update_with_SNMP()
+  Actulizar_Json()
+  sleep(300)
+
+
